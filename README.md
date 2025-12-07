@@ -60,7 +60,7 @@ Python-реалізація топологічного сортування за
 
 ### 2. Запустити
 
-    python graph_builder.py
+    python graph_visualizer.py
     
 
 ## PS
