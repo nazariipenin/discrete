@@ -11,6 +11,18 @@ directed: True / False
 sizes = [20, 50, 100, 150, 200]
 
 #Visualisation:
-show_matrix_plot: True / False
-show_graph_plot: True / False
-show_benchmark_plot: True/False
+visualization_settings= {
+    'matrix_cmap': 'Blues',     
+    'node_color': 'lightblue',  
+    'edge_color': 'gray',       
+    'node_size': 700,           
+    'arrowsize': 20,            
+    'with_labels': True         
+}
+
+# Налаштування заголовків графіків 
+titles= {
+    'matrix': "Матриця суміжності",
+    'graph': "Візуалізація графу (список суміжності)",
+    'benchmark': "Аналіз часу побудови графу"
+}
