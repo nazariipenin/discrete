@@ -107,10 +107,11 @@ for node, neighbors in builder.to_list().items():
 visualizer = GraphVisualizer(builder)
 
 # Закоментовано, щоб не заважало графікам часу, розкоментуйте за потреби:
-visualizer.visualize_matrix()
-visualizer.visualize_list()
+#visualizer.visualize_matrix()
+#visualizer.visualize_list()
 
 # Перевіряємо час побудови для різних розмірів графів
 sizes = [20, 50, 100, 150, 200]
 visualizer.measure_and_plot_time(sizes, probability)
+
 
